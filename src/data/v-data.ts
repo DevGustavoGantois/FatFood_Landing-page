@@ -23,6 +23,24 @@ export const navbarData = [
   },
 ];
 
+export const logoCompanysData = [
+    {
+        logoImg: '/Logo1.svg',
+    },
+    {
+        logoImg: '/Logo2.svg',
+    },
+    {
+        logoImg: '/Logo3.svg',
+    },
+    {
+        logoImg: '/Logo4.svg',
+    },
+    {
+        logoImg: '/Logo5.svg',
+    },
+]
+
 export const aboutData = [
     {
         img: "/PhoneMockup.svg",
