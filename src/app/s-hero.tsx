@@ -6,7 +6,7 @@ import Image from "next/image";
 export function Hero() {
   return (
     <section className="max-w-[1600px] mx-auto px-6 mt-10 lg:mt-[100px]">
-      <div className="flex flex-col-reverse lg:flex-row lg:justify-between items-center justify-center gap-8 lg:gap-0">
+      <div className="flex flex-col lg:flex-row lg:justify-between items-center justify-center gap-8 lg:gap-0">
         <article className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 lg:max-w-lg mt-0 lg:-mt-40">
           <div className="rounded-full px-4 py-2 bg-[#E53935]/10 text-black font-bold text-base lg:text-lg animate-bounce">
             <div className="flex items-center gap-2">
@@ -26,15 +26,15 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
-            <button className="flex items-center cursor-pointer justify-center gap-2 bg-[#E53935] text-white rounded-full px-12 py-4 text-lg font-semibold transition-all duration-700 hover:scale-105 hover:-translate-y-1">
+            <button className="flex items-center cursor-pointer justify-center gap-2 bg-[#E53935] text-white rounded-full px-12 py-4 text-base lg:text-lg font-semibold transition-all duration-700 hover:scale-105 hover:-translate-y-1">
               Peça agora <ArrowRight size={24} />
             </button>
-            <button className="bg-transparent cursor-pointer border border-[#E53935] text-[#E53935] rounded-full px-12 py-4 text-lg font-semibold transition-all duration-700 hover:scale-105 hover:bg-[#E53935] hover:text-white">
+            <button className="bg-transparent cursor-pointer border border-[#E53935] text-[#E53935] rounded-full px-12 py-4 text-base lg:text-lg font-semibold transition-all duration-700 hover:scale-105 hover:bg-[#E53935] hover:text-white">
               Cardápio
             </button>
           </div>
         </article>
-        <figure className="w-full max-w-3xl lg:max-w-7xl relative animate-float">
+        <figure className="w-full max-w-4xl lg:max-w-7xl relative animate-float">
           <Image
             src="/HeroCTA.svg"
             width={1400}
