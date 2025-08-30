@@ -32,6 +32,18 @@ export const aboutData = [
     }
 ];
 
+export const CTAAppData = [
+    {
+        bgImg: "/CTABackground.svg",
+        pizzaImg: "/pizza.svg",
+        mockupPerson: "/mockupPerson.svg",
+        appleDownload: "/AppleDownload.svg",
+        googleDownload: "/GoogleDownload.svg",
+        title: "Conheça o FatFood",
+        description: "Peça seus pratos favoritos de forma rápida, prática e com muito sabor. Baixe agora e descubra o jeito mais fácil de matar a fome.",
+    }
+]
+
 export const contactData = [
     {
         title: "Entre em contato",
