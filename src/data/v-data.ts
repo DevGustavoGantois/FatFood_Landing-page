@@ -23,6 +23,15 @@ export const navbarData = [
   },
 ];
 
+export const aboutData = [
+    {
+        img: "/PhoneMockup.svg",
+        title: "🍟 Sobre o FatFood",
+        description: "O FatFood nasceu para transformar a forma como você pede comida. Nosso objetivo é unir praticidade, rapidez e sabor em um só aplicativo. Com apenas alguns cliques, você tem acesso aos melhores restaurantes, combos exclusivos e promoções irresistíveis. Porque pedir comida deve ser tão gostoso quanto comer!",
+        btnText: "Saiba mais"
+    }
+]
+
 export const footerData = [
     {
         logo: "/LogoWhite.svg",
