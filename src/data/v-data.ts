@@ -42,7 +42,36 @@ export const CTAAppData = [
         title: "Conheça o FatFood",
         description: "Peça seus pratos favoritos de forma rápida, prática e com muito sabor. Baixe agora e descubra o jeito mais fácil de matar a fome.",
     }
-]
+];
+
+export const servicesData = [
+    {
+        title: "Serviços",
+        btnText: "Saiba mais",
+        cards: [
+            {
+                img: "/Service1.svg",
+                title: "Hambúrgueres Artesanais",
+                description: "Suculentos, preparados com ingredientes frescos e combinações únicas que só o FatFood oferece."
+            },
+            {
+                img: "/Service2.svg",
+                title: "Batatas Fritas Irresistíveis",
+                description: "Porções generosas, crocantes por fora e macias por dentro, perfeitas para qualquer pedido.."
+            },
+            {
+                img: "/Service3.svg",
+                title: "Lasanha Suculenta",
+                description: "As lasanhas são suculentas, preparados com ingredientes frescos e combinações únicas que só o FatFood oferece.."
+            },
+            {
+                img: "/Service4.svg",
+                title: "Frango Crocante",
+                description: "Empanado no ponto certo, temperado com nosso sabor especial e sempre quentinho."
+            },
+        ],
+    },
+];
 
 export const contactData = [
     {
