@@ -15,7 +15,7 @@ export function Footer() {
               alt="Logo"
               priority
             />
-            <p className="text-white text-center max-w-[600px]">
+            <p className="text-white text-base lg:text-xl text-center max-w-[600px]">
               {item.description}
             </p>
             <div className="flex gap-4">
