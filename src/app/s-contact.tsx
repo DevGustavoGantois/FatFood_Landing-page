@@ -89,6 +89,7 @@ export function Contact() {
           </div>
 
           <button
+            onClick={() => alert("O formulário de envio não funciona, é meramente ilustrativo.")}
             type="submit"
             className="w-full bg-[#E53935] cursor-pointer text-white rounded-full px-8 py-3 text-lg mt-4 transition-all duration-300 hover:scale-105 hover:-translate-y-1"
           >
