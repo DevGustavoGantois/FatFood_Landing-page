@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export function Services() {
   return (
-    <section className="max-w-[1440px] mx-auto p-8 mt-10 lg:mt-[100px]" id="#servicos">
+    <section className="max-w-[1440px] mx-auto p-8 mt-10 lg:mt-[100px]" id="servicos">
       {servicesData.map((item, index) => (
         <main key={index} className="flex flex-col gap-[16px]">
           <article className="flex flex-col items-center gap-4 justify-center lg:flex-row lg:justify-between mb-[20px] lg:mb-[44px]">
             <h1 className="text-4xl lg:text-6xl font-bold text-[#E53935]">
               {item.title}
             </h1>
-            <button className="rounded-full border border-[#E53935] py-3 px-6 text-[#E53935] cursor-pointer hover:bg-[#E53935] hover:text-white transition">
+            <button className="rounded-full border border-[#E53935] py-3 px-6 text-[#E53935] cursor-pointer hover:bg-[#E53935] hover:text-white transition-all duration-700">
               {item.btnText}
             </button>
           </article>

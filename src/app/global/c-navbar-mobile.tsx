@@ -51,7 +51,6 @@ export function NavbarMobile() {
         <Link
           href="#contato"
           className="px-12 py-2 mt-6 rounded-[48px] bg-[#E53935] text-white font-medium text-lg transition-all duration-300 hover:scale-105"
-          onClick={() => setOpenMenuMobile(false)}
         >
           Contato
         </Link>

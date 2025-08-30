@@ -1,3 +1,4 @@
+"use client";
 import { contactData } from "@/data/v-data";
 import Link from "next/link";
 

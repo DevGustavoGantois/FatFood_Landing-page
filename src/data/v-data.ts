@@ -188,6 +188,10 @@ export const footerData = [
                     name: "Depoimentos",
                     href: "#depoimentos"
                 },
+                {
+                    name: "Contato",
+                    href: "#contato"
+                },
             ],
          copyright: "© 2025 FatFood. Todos os direitos reservados.",
         footerCopy: "Desenvolvido por @devgustavogantois_"

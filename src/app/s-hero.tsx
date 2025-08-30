@@ -2,6 +2,7 @@
 
 import { ArrowRight, Star } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -26,11 +27,15 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
-            <button className="flex items-center cursor-pointer justify-center gap-2 bg-[#E53935] text-white rounded-full px-12 py-4 text-base lg:text-lg font-semibold transition-all duration-700 hover:scale-105 hover:-translate-y-1">
-              Peça agora <ArrowRight size={24} />
-            </button>
+            <Link href="#contato">
+              <button className="flex items-center cursor-pointer justify-center gap-2 bg-[#E53935] text-white rounded-full px-12 py-4 text-base lg:text-lg font-semibold transition-all duration-700 hover:scale-105 hover:-translate-y-1">
+                Peça agora <ArrowRight size={24} />
+              </button>
+            </Link>
             <button className="bg-transparent cursor-pointer border border-[#E53935] text-[#E53935] rounded-full px-12 py-4 text-base lg:text-lg font-semibold transition-all duration-700 hover:scale-105 hover:bg-[#E53935] hover:text-white">
-              Cardápio
+              <Link href="#servicos">
+                Cardápio
+              </Link>
             </button>
           </div>
         </article>
