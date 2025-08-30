@@ -5,7 +5,7 @@ export function Contact() {
   return (
     <section
       id="contato"
-      className="max-w-[1440px] mx-auto p-8 lg:p-0 mt-10 lg:mt-[100px] flex flex-col lg:flex-row items-center justify-center gap-12"
+      className="max-w-[1440px] mx-auto p-8 mt-10 lg:mt-[100px] flex flex-col lg:flex-row items-center justify-center gap-12"
     >
       <div className="flex-1 flex flex-col gap-4 items-center lg:items-start text-center lg:text-left">
         {contactData.map((item, index) => (
