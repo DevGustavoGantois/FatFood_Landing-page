@@ -48,10 +48,12 @@ fatfood/
 
 ---
 
-Deploy Vercel: <a>https://fat-food-landing-page.vercel.app/<a/>
+```
+
+Deploy Vercel: <a href="https://fat-food-landing-page.vercel.app/" >Clique aqui!<a/>
 
 
----------------------------------------------------------
+--------------------------------------------------------------------
 
 <h1>EN<h1/>
 
@@ -97,5 +99,6 @@ fatfood/
 └─ README.md
 
 ---
+```
 
-Deploy Vercel: <a>https://fat-food-landing-page.vercel.app/<a/>
+Deploy Vercel: <a href="https://fat-food-landing-page.vercel.app/">Click here!<a/>
