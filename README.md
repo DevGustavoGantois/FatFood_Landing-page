@@ -53,8 +53,6 @@ fatfood/
 Deploy Vercel: <a href="https://fat-food-landing-page.vercel.app/" >Clique aqui!<a/>
 
 
---------------------------------------------------------------------
-
 <h1>EN<h1/>
 
 ## 📌 Project Description
