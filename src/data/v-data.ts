@@ -174,19 +174,19 @@ export const footerData = [
                 },
                 {
                     name: "Sobre",
-                    href: "#sobre-nos"
+                    href: "sobre-nos"
                 },
                 {
                     name: "Serviços",
-                    href: "#servicos"
+                    href: "servicos"
                 },
                 {
                     name: "Newsletter",
-                    href: "#newsletter"
+                    href: "newsletter"
                 },
                 {
                     name: "Depoimentos",
-                    href: "#depoimentos"
+                    href: "depoimentos"
                 },
             ],
          copyright: "© 2025 FatFood. Todos os direitos reservados.",
