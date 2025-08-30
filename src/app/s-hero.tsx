@@ -34,7 +34,7 @@ export function Hero() {
             </button>
           </div>
         </article>
-        <figure className="w-full max-w-lg lg:max-w-7xl relative">
+        <figure className="w-full max-w-3xl lg:max-w-7xl relative animate-float">
           <Image
             src="/HeroCTA.svg"
             width={1400}
