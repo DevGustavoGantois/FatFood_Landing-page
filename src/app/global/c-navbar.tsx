@@ -20,7 +20,7 @@ export function Navbar() {
           {navbarData.map((item, index) => (
             <li
               key={index}
-              className="text-gray-600 font-normal text-lg transition-all duration-300 hover:text-[#E53935] hover:-translate-y-1"
+              className="text-[#323232] font-normal text-lg transition-all duration-300 hover:text-[#E53935] hover:-translate-y-1"
             >
               <Link href={item.href}>{item.name}</Link>
             </li>
@@ -28,7 +28,7 @@ export function Navbar() {
         </ul>
         <Link
           href="#contato"
-          className="rounded-[48px] bg-[#E53935] px-6 py-2 text-white font-medium text-lg transition-all duration-300 hover:scale-105"
+          className="rounded-[48px] bg-[#E53935] px-10 py-2 text-white font-medium text-lg transition-all duration-300 hover:scale-105"
         >
           Contato
         </Link>
@@ -36,7 +36,7 @@ export function Navbar() {
       <div className="flex lg:hidden">
         <NavbarMobile />
       </div>
-      <div className="w-full border border-gray-900/20" />
+      <div className="w-full border border-gray-400/20" />
     </header>
   );
 }

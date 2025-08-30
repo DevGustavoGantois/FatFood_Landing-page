@@ -25,7 +25,7 @@ export function NavbarMobile() {
         />
       )}
       <div
-        className={`fixed top-0 right-0 h-screen w-64 bg-black z-50 rounded-l-3xl p-6 flex flex-col items-center gap-8 transform transition-transform duration-500 ${
+        className={`fixed top-0 right-0 h-screen w-64 bg-white z-50 rounded-l-3xl p-6 flex flex-col items-center gap-8 transform transition-transform duration-500 ${
           openMenuMobile ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -40,7 +40,7 @@ export function NavbarMobile() {
             <li key={index}>
               <Link
                 href={item.href}
-                className="transition-all duration-300 text-white text-lg hover:text-[#E53935] hover:-translate-y-1"
+                className="transition-all duration-300 text-[#323232] text-lg hover:text-[#E53935] hover:-translate-y-1"
                 onClick={() => setOpenMenuMobile(false)}
               >
                 {item.name}

@@ -26,9 +26,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body
-        className={`${poppins.variable} ${baloo.variable} antialiased`}
+        className={`${poppins.variable} ${baloo.variable} antialiased bg-[#F5F5F5]`}
       >
         <Navbar />
         {children}
