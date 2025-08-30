@@ -5,7 +5,7 @@ export function CTAApp() {
   const item = CTAAppData[0];
 
   return (
-    <section className="bg-gradient-to-b from-[#E53935] to-[#7F201D] w-full relative overflow-hidden">
+    <section className="bg-gradient-to-b from-[#E53935] to-[#7F201D] w-full relative overflow-hidden mt-10 lg:mt-[100px]">
       {/* Background */}
       <div className="absolute inset-0 w-full h-full">
         <Image
@@ -17,12 +17,8 @@ export function CTAApp() {
           priority
         />
       </div>
-
-      {/* Conteúdo */}
       <div className="relative z-10 max-w-[1740px] mx-auto px-6 lg:px-12 py-16 lg:py-28">
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-12">
-          
-          {/* Texto + botões */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-4">
             <h2 className="text-white text-4xl lg:text-6xl font-bold whitespace-nowrap">
               {item.title}
