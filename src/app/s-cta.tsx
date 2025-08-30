@@ -6,7 +6,6 @@ export function CTAApp() {
 
   return (
     <section className="bg-gradient-to-b from-[#E53935] to-[#7F201D] w-full relative overflow-hidden mt-10 lg:mt-[100px]">
-      {/* Background */}
       <div className="absolute inset-0 w-full h-full">
         <Image
           src={item.bgImg}
