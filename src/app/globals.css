@@ -19,7 +19,7 @@
   }
 }
 
-:-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 8px;
   background: #FFFFFF;
   border-radius: 99999px
