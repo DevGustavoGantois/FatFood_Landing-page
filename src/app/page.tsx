@@ -3,6 +3,7 @@ import { Contact } from "./s-contact";
 import { CTAApp } from "./s-cta";import { Hero } from "./s-hero";
 import { LogoCompanys } from "./s-logo-companys";
 import { Services } from "./s-services";
+import { Testimonials } from "./s-testimonials";
 ;
 
 export default function Page() {
@@ -13,7 +14,7 @@ export default function Page() {
       <About />
       <Services />
       <CTAApp />
-      <Testiomials />
+      <Testimonials />
       <Contact />
     </>
   );

@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Quote, Twitter } from "lucide-react";
+import { ArrowRight, Facebook, Instagram, Linkedin, Quote, Twitter } from "lucide-react";
 
 export const navbarData = [
   {
@@ -64,20 +64,21 @@ export const CTAAppData = [
 
 export const testimonialsData = [
     {
-        title: "O que nossos clientes estão dizendo?",
+        title: "O que nossos clientes estão",
         description: "A satisfação de quem já experimentou o FatFood fala por si. Confira as experiências reais de nossos clientes.",
         icon: Quote,
+        arrow: ArrowRight,
         testimonials: [
             {
-                img: "/User1.svg",
+                img: "/User2.svg",
                 name: "Ana Silva",
                 role: "Cliente Satisfeita",
                 feedback: "O FatFood revolucionou minha maneira de pedir comida. A variedade de opções é incrível e a entrega sempre chega rápido e quentinha. Recomendo a todos!"
             },
             {
-                img: "/User2.svg",
-                name: "Carlos Pereira",
-                role: "Apreciador de Fast Food",
+                img: "/User1.svg",
+                name: "Carlos Mendes",
+                role: "Empresário de lojas de moda.",
                 feedback: "Adoro como o FatFood facilita minha vida. Com apenas alguns cliques, tenho acesso aos meus pratos favoritos. A interface é super amigável e as promoções são ótimas!"
             },
             {
