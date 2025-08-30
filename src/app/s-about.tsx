@@ -13,7 +13,7 @@ export function About() {
                                 <Image src={item.img} width={500} height={500} alt="Imagem mockup celular" priority />
                             </figure>
                             <article className="flex flex-col items-center lg:items-start justify-start gap-4">
-                                <h1 className="text-6xl text-[#E53935] text-center lg:text-start font-extrabold">{item.title}</h1>
+                                <h1 className="text-4xl lg:text-6xl text-[#E53935] text-center lg:text-start font-extrabold">{item.title}</h1>
                                 <p className="text-center lg:text-start max-w-[600px] text-[#323232] text-base lg:text-xl">
                                     {item.description}
                                 </p>
