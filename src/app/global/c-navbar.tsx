@@ -28,11 +28,11 @@ const navbarData = [
 export function Navbar() {
   return (
     <header>
-      <nav className="w-full hidden lg:flex items-center justify-between px-10 py-6">
+      <nav className="w-full hidden lg:flex items-center justify-between px-10 py-6 max-w-[1440px] mx-auto p-8">
         <Link href="/">
           <Image 
             src="/Logo.svg" 
-            width={180} 
+            width={125} 
             height={60} 
             alt="Logo" 
             priority 
@@ -58,6 +58,7 @@ export function Navbar() {
       <div className="flex lg:hidden">
         <NavbarMobile />
       </div>
+      <div className="w-full border border-gray-900/20" />
     </header>
   );
 }
