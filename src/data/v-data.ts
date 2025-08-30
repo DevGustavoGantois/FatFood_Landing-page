@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Quote, Twitter } from "lucide-react";
 
 export const navbarData = [
   {
@@ -59,6 +59,34 @@ export const CTAAppData = [
         googleDownload: "/GoogleDownload.svg",
         title: "Conheça o FatFood",
         description: "Peça seus pratos favoritos de forma rápida, prática e com muito sabor. Baixe agora e descubra o jeito mais fácil de matar a fome.",
+    }
+];
+
+export const testimonialsData = [
+    {
+        title: "O que nossos clientes estão dizendo?",
+        description: "A satisfação de quem já experimentou o FatFood fala por si. Confira as experiências reais de nossos clientes.",
+        icon: Quote,
+        testimonials: [
+            {
+                img: "/User1.svg",
+                name: "Ana Silva",
+                role: "Cliente Satisfeita",
+                feedback: "O FatFood revolucionou minha maneira de pedir comida. A variedade de opções é incrível e a entrega sempre chega rápido e quentinha. Recomendo a todos!"
+            },
+            {
+                img: "/User2.svg",
+                name: "Carlos Pereira",
+                role: "Apreciador de Fast Food",
+                feedback: "Adoro como o FatFood facilita minha vida. Com apenas alguns cliques, tenho acesso aos meus pratos favoritos. A interface é super amigável e as promoções são ótimas!"
+            },
+            {
+                img: "/User3.svg",
+                name: "Mariana Costa",
+                role: "Fã de Comida Rápida",
+                feedback: "O FatFood é meu aplicativo de delivery favorito! A qualidade da comida é excelente, e o atendimento ao cliente é impecável. Nunca mais quero pedir comida de outra forma."
+            }
+        ]
     }
 ];
 

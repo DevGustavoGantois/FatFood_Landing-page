@@ -13,6 +13,7 @@ export default function Page() {
       <About />
       <Services />
       <CTAApp />
+      <Testiomials />
       <Contact />
     </>
   );
