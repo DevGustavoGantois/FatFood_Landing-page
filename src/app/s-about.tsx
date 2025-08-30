@@ -14,10 +14,10 @@ export function About() {
                             </figure>
                             <article className="flex flex-col items-center lg:items-start justify-start gap-4">
                                 <h1 className="text-6xl text-[#E53935] text-center lg:text-start font-bold">{item.title}</h1>
-                                <p className="text-center lg:text-start max-w-[600px] text-[#323232] text-xl">
+                                <p className="text-center lg:text-start max-w-[600px] text-[#323232] text-base lg:text-xl">
                                     {item.description}
                                 </p>
-                                <button className="bg-[#E53935] cursor-pointer text-white rounded-full px-12 py-4 text-xl transition-all duration-700 hover:scale-[1.1] hover:-translate-y-2">
+                                <button className="bg-[#E53935] cursor-pointer text-white rounded-full px-12 py-4 text-base lg:text-xl transition-all duration-700 hover:scale-[1.1] hover:-translate-y-2">
                                     {item.btnText}      
                                 </button>
                             </article>
