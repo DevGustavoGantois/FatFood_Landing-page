@@ -1,29 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { NavbarMobile } from "./c-navbar-mobile";
-
-const navbarData = [
-  {
-    name: "Home",
-    href: "/"
-  },
-  {
-    name: "Sobre",
-    href: "#sobre-nos"
-  },
-  {
-    name: "Serviços",
-    href: "#servicos"
-  },
-  {
-    name: "Newsletter",
-    href: "#newsletter"
-  },
-  {
-    name: "Depoimentos",
-    href: "#depoimentos"
-  },
-];
+import { navbarData } from "@/data/v-data";
 
 export function Navbar() {
   return (
