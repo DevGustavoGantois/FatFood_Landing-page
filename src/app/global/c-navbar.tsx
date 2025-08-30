@@ -27,7 +27,7 @@ export function Navbar() {
           ))}
         </ul>
         <Link
-          href="#contato"
+          href="contato"
           className="rounded-[48px] bg-[#E53935] px-10 py-2 text-white font-medium text-lg transition-all duration-300 hover:scale-105"
         >
           Contato
