@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="max-w-[1600px] mx-auto p-8 mt-10 lg:mt-[100px]">
+    <section className="max-w-[1600px] mx-auto p-8 mt-10 lg:mt-[100px]" id="home">
       <div className="flex flex-col lg:flex-row lg:justify-between items-center justify-center gap-8 lg:gap-0">
         <article className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 lg:max-w-lg mt-0 lg:-mt-40">
           <div className="rounded-full px-4 py-2 bg-[#E53935]/10 text-black font-bold text-base lg:text-lg animate-bounce">

@@ -5,7 +5,7 @@ export function CTAApp() {
   const item = CTAAppData[0];
 
   return (
-    <section className="bg-gradient-to-b from-[#E53935] to-[#7F201D] w-full relative overflow-hidden mt-10 lg:mt-[100px]">
+    <section className="bg-gradient-to-b from-[#E53935] to-[#7F201D] w-full relative overflow-hidden mt-10 lg:mt-[100px]" id="newsletter">
       <div className="absolute inset-0 w-full h-full">
         <Image
           src={item.bgImg}

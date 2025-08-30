@@ -17,7 +17,7 @@ export function Testimonials() {
   const testimonial = item.testimonials[currentIndex];
 
   return (
-    <section className="max-w-[1440px] mx-auto p-8 mt-10 lg:mt-[100px]">
+    <section className="max-w-[1440px] mx-auto p-8 mt-10 lg:mt-[100px]" id="depoimentos">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
         <div className="flex flex-col gap-4 items-center lg:items-start text-center lg:text-left">
           <h1 className="text-4xl lg:text-6xl font-bold text-black max-w-[700px]">
