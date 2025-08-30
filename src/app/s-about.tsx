@@ -4,7 +4,7 @@ import Image from "next/image";
 export function About() {
     return (
         <section className="bg-[#E53935]/10">
-        <div className="max-w-[1440px] mx-auto p-8 lg:p-9 mt-10 lg:mt-[100px]">
+        <div className="max-w-[1440px] mx-auto p-8 mt-10 lg:mt-[100px]">
             {aboutData.map((item, index) => {
                 return (
                     <div key={index} className=" p-8">
