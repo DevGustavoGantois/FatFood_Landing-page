@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍔 FatFood - Seu FastFood Favorito
 
-## Getting Started
+![Banner](./public/FatFoodBanner.png)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Descrição do Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O **FatFood** é um site de fast-food desenvolvido para fornecer uma experiência rápida, intuitiva e visualmente atraente. O objetivo é permitir que os usuários conheçam os produtos, façam pedidos e interajam com a marca de forma simples e prática.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O design do projeto foi criado no **Figma** e o desenvolvimento seguiu as boas práticas de **Next.js**, **TypeScript** e **Tailwind CSS**, garantindo performance, responsividade e escalabilidade.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎨 Design
 
-To learn more about Next.js, take a look at the following resources:
+O projeto foi planejado com foco em **UI/UX**, utilizando cores vibrantes, tipografia moderna e elementos interativos para criar uma experiência agradável ao usuário.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Figma Link:** [Acessar Design](https://www.figma.com/design/9qKB44W6DqNjgNU4JI99XZ/FatFood---App?node-id=0-1&t=kV43vyE4KfsWbzOJ-1)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⚡ Tecnologias Utilizadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js** – Framework React moderno, otimizado para performance e SEO  
+- **TypeScript** – Tipagem estática para maior segurança e manutenibilidade  
+- **Tailwind CSS** – Framework utilitário para estilização rápida e responsiva  
+- **React Icons / Lucide-react** – Biblioteca de ícones moderna e leve  
+- **Vercel** – Deploy e hospedagem do projeto  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📂 Estrutura do Projeto
+
+```plaintext
+fatfood/
+│
+├─ public/              # Imagens, logos e assets estáticos
+├─ src/
+│   ├─ app/             # Pages e rotas do Next.js
+│   ├─ components/      # Componentes reutilizáveis (Navbar, Footer, Hero, etc)
+│   ├─ data/            # Dados estáticos (cards, testimonials, menu)
+│   └─ styles/          # Estilos globais e variáveis Tailwind
+├─ package.json
+├─ tailwind.config.js
+├─ tsconfig.json
+└─ README.md
+
+---
+
+Deploy Vercel: <a>https://fat-food-landing-page.vercel.app/<a/>
+
+
+---------------------------------------------------------
+
+<h1>EN<h1/>
+
+## 📌 Project Description
+
+FatFood is a fast-food website designed to provide a fast, intuitive, and visually appealing experience. The goal is to allow users to learn about products, place orders, and interact with the brand in a simple and practical way.
+
+The project was designed in Figma, and development followed best practices in Next.js, TypeScript, and Tailwind CSS, ensuring performance, responsiveness, and scalability.
+
+---
+## 🎨 Design
+
+The project was designed with a focus on UI/UX, utilizing vibrant colors, modern typography, and interactive elements to create a pleasant user experience.
+
+- **Figma Link:** [Access Design](https://www.figma.com/design/9qKB44W6DqNjgNU4JI99XZ/FatFood---App?node-id=0-1&t=kV43vyE4KfsWbzOJ-1)
+
+---
+
+## ⚡ Technologies Used
+
+- **Next.js** – Modern React framework, optimized for performance and SEO
+- **TypeScript** – Static typing for greater security and maintainability
+- **Tailwind CSS** – Utility framework for fast and responsive styling
+- **React Icons / Lucide-react** – Modern and lightweight icon library
+- **Vercel** – Project deployment and hosting
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+fatfood/
+│
+├─ public/ # Images, logos, and static assets
+├─ src/
+│ ├─ app/ # Next.js pages and routes
+│ ├─ components/ # Reusable components (Navbar, Footer, Hero, etc.)
+│ ├─ data/ # Static data (cards, testimonials, menu)
+│ └─ styles/ # Global styles and Tailwind variables
+├─ package.json
+├─ tailwind.config.js
+├─ tsconfig.json
+└─ README.md
+
+---
+
+Deploy Vercel: <a>https://fat-food-landing-page.vercel.app/<a/>
